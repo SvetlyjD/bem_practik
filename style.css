@@ -475,7 +475,7 @@ align-items: center;
         display: flex;
         margin-top: 2%;
         padding:1% ;
-        width: 50vw;
+        width: 70vw;
         height: auto;
         min-height: 30vw;
         text-align: center;
@@ -490,14 +490,6 @@ align-items: center;
 }
 
 /* main_footer================================================ */
-
-.main__footer_main{
-
-}
-
-.footer_main{
-
-}
 
 .container_footer_main{
 display: block;
@@ -527,9 +519,6 @@ align-items: center;
     justify-content: center;
 }
 
-.input_button_input{
-}
-
 .input_button_button{
     font-size: 8px;
     margin-left: 15px;
@@ -544,7 +533,106 @@ align-items: center;
 }
 
 /* footer */
-
 .footer {
+    display: block;
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+
+.container_footer{
     display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.footer_container{
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    max-width: 970px;
+    width: 90%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    text-align: left;
+}
+
+.item_footer {
+    display: flex;
+    flex-direction:column;
+    width: 12em;
+    height: auto;
+    position: relative;
+    margin: 10px 0px 0px 20px;}
+
+
+.logos {
+    display: block;
+   
+}
+
+.footer_logo{
+    text-align: left;
+    font-size: 8px;
+    color: tomato;
+    margin-top: 10px;
+}
+
+.footer_list{
+    display: block;
+    text-align: left;    
+    font-size: 8px;
+    line-height: 150%;
+}
+
+.footer_list_header{
+
+}
+
+.footer_list_list{
+
+}
+
+.list_company{
+font-size: 8px;
+}
+
+.list_company_item{
+color: gray;
+}
+
+.footer_partners{
+    font-size: 8px;
+    text-align: left;
+}
+
+.footer_brand img{
+max-width: 100px;
+}
+
+@media(max-width:960px){
+    .item_footer{
+        width: 12em;
+        height: auto;
+    }
+}
+
+
+@media(max-width:910px){
+ 
+    .footer_container{
+        display: flex;
+        /* justify-content: center; */
+    }
+    
+    .list_company{
+    display: flex;
+
+}
+ .list_company_item{
+     margin-right: 5px;
+ }   
+   
+   
 }
