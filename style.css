@@ -513,10 +513,13 @@ align-items: center;
 }
 
 .header_text_footer{
-color: grey;
-font-size: 14px;
-font-weight: 500;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-size: 10px;
+    font-weight: 100;
+} 
 
 .input_button{
     display: flex;
@@ -525,16 +528,23 @@ font-weight: 500;
 }
 
 .input_button_input{
-
 }
 
+.input_button_button{
+    font-size: 8px;
+    margin-left: 15px;
+    padding: 0px 10px;
+}    
 
 
-
-
+.main{
+    border-bottom: 2px solid tomato;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
 
 /* footer */
 
 .footer {
-display: flex;
+    display: flex;
 }
