@@ -14,7 +14,7 @@ body {
 }
 
 ._container {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0px auto;
     padding: 0 35px;
     box-sizing: content-box;
@@ -26,10 +26,10 @@ body {
 
 .bgimg img {
     position: absolute;
-    width: 100%;
+    width: 80%;
     height: 100%;
     top: 0;
-    left: 0;
+    left: 140px;
     object-fit: cover;  /* Смещаемый контент меняет свой размер таким образом, чтобы сохранять свои пропорции при заполнении блока: окончательный размер контента будет определён как "покрытие" блока, ограничиваясь его шириной и высотой*/
 }    
 
@@ -55,6 +55,7 @@ body {
 .header {
     position: absolute;
     width: 100%;
+    margin-left: 130px;
     left: 0;
     top: 0;
     z-index: 100;
@@ -63,18 +64,17 @@ body {
 .header__container {
     display: flex;
     min-height: 108px;
-    align-items: center;
-}
+    }
 
 .header__logo{
-    font-size: 20px;
+    color: blanchedalmond;
+    font-size: 17px;
     font-weight: 800;
-    color: rgb(2, 2, 58);
-    margin: 0px 0px 0px 150px;
+    margin: 38px 0px 0px 42px;
 }
 
 .header__menu{
-    margin:  0px 0px 0px 330px;
+    margin:  16px 0px 0px 460px;
 }
 
 .menu_list{
@@ -97,11 +97,16 @@ body {
 ._signup {
     padding: 3px 7px;
     border: 2px solid white;
+    font-size: 12px;
+    color: white;
     border-radius: 25px;
 }
 
 ._login {
+    color: blanchedalmond;
     padding: 5px;
+    font-size: 12px;
+    margin-left: 10px;
 }
 
 @media(max-width:992px){
@@ -147,7 +152,8 @@ body {
 }
 
 .main_block__main {
-    padding: 146px  20px ;
+    color: blanchedalmond;
+    padding: 170px  90px ;
     position: relative;
     z-index: 3;
 }
